@@ -1,0 +1,14 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+ul li{
+
+	text-decoration: none !important;
+	display: inline-block !important;
+	/* width: 20% !important; */
+}
+a:hover{
+	background-color: #333 !important;
+	text-decoration: none;
+	color: white;
+}

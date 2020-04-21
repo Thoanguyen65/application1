@@ -1,0 +1,9 @@
+<h1>Editing Micropost</h1>
+<p>
+<strong>First micropost:</strong>
+<%= @user.microposts.first %>
+</p>
+<%= render 'form', micropost: @micropost %>
+
+<%= link_to 'Show', @micropost %> |
+<%= link_to 'Back', microposts_path %>
